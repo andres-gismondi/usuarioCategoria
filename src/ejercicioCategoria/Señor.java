@@ -1,4 +1,9 @@
 package ejercicioCategoria;
 
-public class Señor {
+public class Señor extends Categoria{
+
+    public double sueldoPromedio(Usuario user){
+        return (user.getSueldo() * 2);
+    }
+
 }
