@@ -19,6 +19,10 @@ public class Usuario {
         this.categoria = categoria;
     }
 
+    public void cambiarCategoria(Categoria cat){
+        this.categoria = cat;
+    }
+
     public Empresa getEmpresa(){
         return empresa;
     }

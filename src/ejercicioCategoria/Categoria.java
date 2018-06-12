@@ -1,6 +1,6 @@
 package ejercicioCategoria;
 
-public abstract class Categoria {
+public interface Categoria {
 
     public abstract double sueldoPromedio(Usuario user);
 
